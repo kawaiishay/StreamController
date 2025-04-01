@@ -192,3 +192,6 @@ vid_cache/
 ## Semrel temporary stuff
 .semrel/
 semantic-release
+
+## Flatpak build directory
+StreamController/

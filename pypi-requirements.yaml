@@ -17,7 +17,7 @@ build-commands:
   Pygments PyGObject pymongo pyparsing pyperclip pyproject-metadata Pyro5 pyspellchecker
   python-dateutil pyudev pyusb PyYAML RapidFuzz regex req2flatpak requests requirements-parser
   rich rpyc serpent setproctitle setuptools six smmap speedtest-cli streamcontroller-plugin-tools
-  streamdeck textual tinycss2 tqdm types-setuptools typing-extensions uc-micro-py
+  streamcontroller-streamdeck textual tinycss2 tqdm types-setuptools typing-extensions uc-micro-py
   urllib3 usb-monitor virtualenv webencodings websocket-client
 sources:
 - type: file
@@ -437,8 +437,8 @@ sources:
   url: https://files.pythonhosted.org/packages/04/27/de888609a67e046bc6b1ae60cc3806ea6831f935f7bca970cd72cdbf2075/streamcontroller_plugin_tools-2.0.1-py3-none-any.whl
   sha256: 5f48c1f170548630c0a8b274d2a1a3f813b167b5dc3e03bb7e69c911cb491160
 - type: file
-  url: https://files.pythonhosted.org/packages/5b/6c/0f059e39447eed4235e5b97b1f7ffe831a89e98a44d3d1f62a4bd8acdaf8/streamdeck-0.9.5-py3-none-any.whl
-  sha256: c5c590bd9f56d1a79ff2135772b8c95de39efc1da517bff690a6d96fed1f23fb
+  url: https://files.pythonhosted.org/packages/7a/8e/a186982a8e5036308e1ec631d6a928c3967dcc43b09b1197735c1e30015a/streamcontroller_streamdeck-0.1.4-py3-none-any.whl
+  sha256: 66310efeb85736eb1fb765a1eed25b5ad5c465d8065d35bc60cc845538373382
 - type: file
   url: https://files.pythonhosted.org/packages/18/39/6cec279ca41dcacb1c92ad6e4467c9e88db4eb4d2f02300c66218ec432de/textual-0.83.0-py3-none-any.whl
   sha256: d6efc1e5c54086fd0a4fe274f18b5638ca24a69325c07e1b4400a7d0a1a14c55
