@@ -61,6 +61,7 @@ modules:
   - name: libportal
     buildsystem: meson
     config-opts:
+      - --libdir=/app/lib
       - -Dbackend-gtk3=disabled
       - -Dbackend-gtk4=enabled
       - -Dbackend-qt5=disabled
@@ -70,7 +71,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/flatpak/libportal.git
-        tag: 0.8.1
+        tag: 0.9.1
 
   - name: StreamController
     buildsystem: simple
