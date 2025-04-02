@@ -357,7 +357,6 @@ class StatusNotifierItemService(DBusService):
             interface_name='org.kde.StatusNotifierWatcher',
             cancellable=None
         )
-
         watcher.RegisterStatusNotifierItem('(s)', self.dbus_path)
 
     def unregister(self):

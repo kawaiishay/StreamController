@@ -1,6 +1,6 @@
 id: com.core447.StreamController
 runtime: org.gnome.Platform
-runtime-version: '47'
+runtime-version: '48'
 sdk: org.gnome.Sdk
 command: launch.sh
 
@@ -21,6 +21,7 @@ finish-args:
   - --talk-name=org.gnome.ScreenSaver
   - --talk-name=org.cinnamon.ScreenSaver
   - --talk-name=org.freedesktop.ScreenSaver
+  - --talk-name=org.kde.StatusNotifierWatcher
   - --system-talk-name=org.freedesktop.UPower # Access to power management - used to get battery status
 
 modules:
